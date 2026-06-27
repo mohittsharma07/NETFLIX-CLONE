@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# NETFLIX-CLONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive Netflix Clone built using React.js, Firebase, and TMDB API. This project replicates the core Netflix UI and provides movie browsing, authentication, trailer playback, multilingual support, and search functionality.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+-  User Authentication (Firebase Login & Register)
+-  Browse Trending, Popular and Netflix Original Movies
+-  Search Movies & TV Shows
+-  Watch Official YouTube Trailers
+-  English & Hindi Language Support
+-  User Profile Page
+-  Fully Responsive Design
+-  Firebase Integration
+-  Fast and Smooth UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies Used
 
-### `npm test`
+- React.js
+- JavaScript (ES6+)
+- Firebase Authentication
+- TMDB (The Movie Database) API
+- React Router DOM
+- SCSS / CSS
+- Tailwind CSS
+- Git & GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── Components/
+│   ├── Header.js
+│   ├── HomeBanner.js
+│   ├── Login.js
+│   ├── Register.js
+│   ├── Search.js
+│   ├── MovieDetails.js
+│   ├── TrailerFetch.js
+│   ├── UserProfile.js
+│   └── ...
+│
+├── api/
+│   └── api.js
+│
+├── App.js
+├── index.js
+└── firebaseConfig.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Environment Variables
 
-### `npm run eject`
+-This project requires the following environment variable.
+-REACT_APP_TMDB_API_KEY=YOUR_API_KEY
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Future Updates
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-  Add Favorites / Wishlist
+-  Video Player inside Website
+-  Genre Filtering
+-  Movie Ratings
+-  Better Animations
+-  Dark & Light Theme
+-  Continue Watching
+-  AI Movie Recommendation
+-  Movie Recommendation Based on User Interest
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Contributions, issues, and feature requests are welcome.
+-Feel free to fork the repository and create a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-This project is created for learning and educational purposes only.
+-Netflix and TMDB logos, names and content belong to their respective owners.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Developer
 
-### Making a Progressive Web App
+Mohit Sharma
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+GitHub:
+https://github.com/mohittsharma07
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this project, don't forget to ⭐ Star the repository.
